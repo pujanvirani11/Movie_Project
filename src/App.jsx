@@ -19,8 +19,7 @@ function App() {
       <BrowserRouter basename="/Movie_Project">
       <Routes>
         <Route path='/' element={<><Layout/></>}>
-        <Route path='/' element={<><Home/></>} />
-        <Route path='/Home' element={<><Home/></>} />
+        <Route index element={<><Home/></>} />
         <Route path='/Popular' element={<><Popular/></>} />
         <Route path='/Upcoming' element={<><Upcoming/></>} />
         <Route path='/Top_Rated' element={<><Top_Rated/></>} />
