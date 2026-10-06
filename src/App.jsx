@@ -10,6 +10,7 @@ import Now_Playing from './Componets/Now_Playing'
 import Genres from './Componets/Genres'
 import Contact from './Componets/Contact'
 import Movie_Details from './Componets/Movie_Details'
+import Movie_List from './Componets/Movie_List'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,6 +29,7 @@ function App() {
         <Route path='/Genres' element={<><Genres/></>} />
         <Route path='/Contact' element={<><Contact/></>} />
         <Route path='/Movie_Details/:id' element={<><Movie_Details/></>} />
+        <Route path='/Movie_List/:id' element={<><Movie_List/></>} />
         </Route>
       </Routes>
       </BrowserRouter>
