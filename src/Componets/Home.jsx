@@ -262,7 +262,7 @@ function Home() {
               </h2>
               <Link
                 to="/Upcoming"
-                className="btn btn-warning btn-sm mt-auto rounded-pill"
+                className="btn btn-outline-warning rounded-pill"
               >
                 View All <i className="bi bi-arrow-right"></i>
               </Link>
